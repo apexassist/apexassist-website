@@ -5,17 +5,17 @@ const services = [
       "Reliable professionals who can manage email, scheduling, CRM updates, research and day-to-day administration.",
   },
   {
-    title: "Customer Support",
+    title: "Customer Support Representatives",
     description:
       "Dedicated support for phone, email and live chat to help your customers receive fast, professional service.",
   },
   {
-    title: "Administrative Support",
+    title: "Administrative Assistants",
     description:
       "Accurate support with data entry, reporting, documents, quotations and general business administration.",
   },
   {
-    title: "Back-Office Support",
+    title: "Back-Office Operations",
     description:
       "Flexible operational support that gives your internal team more time to focus on growth and core priorities.",
   },
@@ -282,14 +282,18 @@ export default function Home() {
         <div className="mx-auto max-w-7xl">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.24em] text-blue-400">
-              Launch Services
+              Our Services
             </p>
             <h2 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
-              Practical support for the work that slows your business down.
+              Build your remote team with professionals who become part of your business.
             </h2>
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              We begin with clear, manageable roles that allow us to deliver
-              excellent service and build long-term client relationships.
+              Whether you need one dedicated professional 
+              or an entire remote department, Apex Assist
+              provides skilled people who integrate
+              seamlessly with your business. Start with one
+              team member and scale as your business grows
+          
             </p>
           </div>
 
