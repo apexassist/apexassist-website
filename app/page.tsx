@@ -2,22 +2,22 @@ const services = [
   {
     title: "Dedicated Virtual Assistants",
     description:
-      "Reliable professionals who can manage email, scheduling, CRM updates, research and day-to-day administration.",
+      "Reliable professionals who manage your inbox, calendar, CRM, research and daily administration so you can focus on growing your business.",
   },
   {
     title: "Customer Support Representatives",
     description:
-      "Dedicated support for phone, email and live chat to help your customers receive fast, professional service.",
+      "Professional phone, email and live chat support that delivers fast, friendly service and keeps your customers happy.",
   },
   {
     title: "Administrative Assistants",
     description:
-      "Accurate support with data entry, reporting, documents, quotations and general business administration.",
+      "Accurate support for documents, quotations, reporting, scheduling and day-to-day administration that keeps your business organised.",
   },
   {
     title: "Back-Office Operations",
     description:
-      "Flexible operational support that gives your internal team more time to focus on growth and core priorities.",
+      " Dedicated operational support that streamlines repetitive tasks, improves efficiency and frees your team to focus on growth.",
   },
 ];
 
@@ -282,17 +282,17 @@ export default function Home() {
         <div className="mx-auto max-w-7xl">
           <div className="max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.24em] text-blue-400">
-              Our Services
+              Our Solutions
             </p>
             <h2 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
-              Build your remote team with professionals who become part of your business.
+              Build a dedicated remote team that feels like your own.
             </h2>
             <p className="mt-6 text-lg leading-8 text-slate-400">
               Whether you need one dedicated professional 
               or an entire remote department, Apex Assist
-              provides skilled people who integrate
+              provides experienced people who integrate
               seamlessly with your business. Start with one
-              team member and scale as your business grows
+              team member and scale as your company grows
           
             </p>
           </div>
