@@ -292,7 +292,7 @@ export default function Home() {
               or an entire remote department, Apex Assist
               provides experienced people who integrate
               seamlessly with your business. Start with one
-              team member and scale as your company grows
+              team member and scale as your company grows.
           
             </p>
           </div>
