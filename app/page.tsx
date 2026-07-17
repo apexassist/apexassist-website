@@ -263,7 +263,14 @@ export default function Home() {
 
       <footer className="bg-slate-950 px-6 py-14 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 border-b border-white/10 pb-12 md:grid-cols-[1.3fr_0.7fr_0.8fr]">
-          <div><p className="text-xl font-extrabold tracking-[0.18em]">APEX <span className="text-blue-400">ASSIST</span></p><p className="mt-5 max-w-md leading-7 text-slate-400">Dedicated remote professionals helping growing businesses create more capacity, reduce pressure and improve service.</p><p className="mt-5 text-sm font-bold uppercase tracking-[0.18em] text-slate-500">Your Remote Staffing Partner.</p></div>
+          <div>
+            <img
+              src="/apex-assist-footer.svg"
+              alt="Apex Assist"
+              className="h-16 w-auto"
+           />
+           
+        <p className="mt-5 max-w-md leading-7 text-slate-400">Dedicated remote professionals helping growing businesses create more capacity, reduce pressure and improve service.</p><p className="mt-5 text-sm font-bold uppercase tracking-[0.18em] text-slate-500">Your Remote Staffing Partner.</p></div>
           <div><p className="font-bold">Quick Links</p><div className="mt-5 flex flex-col gap-3 text-slate-400"><a href="#services" className="hover:text-white">Services</a><a href="#why-us" className="hover:text-white">Why Apex Assist</a><a href="#how-it-works" className="hover:text-white">How It Works</a><a href="#industries" className="hover:text-white">Industries</a><a href="#faq" className="hover:text-white">FAQ</a></div></div>
           <div><p className="font-bold">Contact</p><a href="mailto:info@getapexassist.com" className="mt-5 block font-semibold text-blue-400 hover:text-blue-300">info@getapexassist.com</a><p className="mt-4 leading-7 text-slate-400">Gauteng, South Africa<br />Serving businesses across the United States</p></div>
         </div>
