@@ -25,25 +25,17 @@ const benefits = [
   {
     title: "Personal Service",
     description:
-    "Direct access to our team, fast 
-    communication and a recruitment 
-    process tailored specifically to your 
-    business.",
-   },
+      "Direct access to our team, fast communication and a recruitment process tailored specifically to your business.",
+  },
   {
     title: "Dedicated Professionals",
     description:
-    "Every professional works as an 
-    extension of your business, giving 
-    you consistent support without the 
-    cost of hiring locally.",
+      "Every professional works as an extension of your business, giving you consistent support without the cost of hiring locally.",
   },
   {
     title: "Built to Scale",
     description:
-    "Start with one professional and 
-    confidently expand your remote team 
-    as your business grows.",
+      "Start with one professional and confidently expand your remote team as your business grows.",
   },
 ];
 
