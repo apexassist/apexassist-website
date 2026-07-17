@@ -25,17 +25,17 @@ const benefits = [
   {
     title: "Personal Service",
     description:
-      "You receive direct, responsive support from a boutique partner that treats every placement as important.",
-  },
+      "Direct access to our team, fast communication and a recruitment process tailored specifically to your business.",.",
+   },
   {
     title: "Dedicated Professionals",
     description:
-      "Your remote professional works as an extension of your business, not as a shared or anonymous resource.",
+      "Every professional works as an extension of your business, giving you consistent support without the cost of hiring locally.",
   },
   {
-    title: "Built to Grow",
+    title: "Built to Scale",
     description:
-      "Begin with one reliable team member and expand gradually when your business and systems are ready.",
+      "Start with one professional and confidently expand your remote team as your business grows.",
   },
 ];
 
