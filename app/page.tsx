@@ -82,7 +82,11 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <a href="#top" className="text-lg font-extrabold tracking-[0.18em] sm:text-xl">
-            APEX <span className="text-blue-400">ASSIST</span>
+            <img
+  src="/apex-assist-logo.svg"
+  alt="Apex Assist - Your Remote Staffing Partner"
+  className="h-12 w-auto"
+/>
           </a>
           <div className="hidden items-center gap-7 text-sm font-medium text-slate-300 lg:flex">
             <a href="#services" className="hover:text-white">Services</a>
