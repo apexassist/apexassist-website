@@ -349,6 +349,79 @@ export default function Home() {
         </div>
       </section>
 
+      <section
+  id="why-us"
+  className="border-y border-white/10 bg-slate-950 px-6 py-24 lg:px-8"
+>
+  <div className="mx-auto max-w-7xl">
+    <div className="max-w-3xl">
+      <p className="text-sm font-bold uppercase tracking-[0.24em] text-blue-400">
+        Why Apex Assist
+      </p>
+
+      <h2 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
+        Personal service, reliable people and room to grow.
+      </h2>
+
+      <p className="mt-6 text-lg leading-8 text-slate-400">
+        We are built for businesses that want to start with one dependable
+        professional, receive direct support and expand only when the time is
+        right.
+      </p>
+    </div>
+
+    <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {[
+        {
+          title: "Dedicated Professionals",
+          description:
+            "Your team member works as an extension of your business, not as a shared or anonymous resource.",
+        },
+        {
+          title: "Founder-Led Support",
+          description:
+            "You receive direct involvement and responsive communication from the beginning.",
+        },
+        {
+          title: "Careful Recruitment",
+          description:
+            "Candidates are assessed for communication, reliability, skills and fit before you interview them.",
+        },
+        {
+          title: "Start With One",
+          description:
+            "Begin with one manageable role, prove the process and grow your team when you are ready.",
+        },
+        {
+          title: "Clear Communication",
+          description:
+            "We believe in honest updates, realistic expectations and solving issues quickly.",
+        },
+        {
+          title: "Long-Term Partnership",
+          description:
+            "Our goal is not a quick placement. We want to help you build a dependable team over time.",
+        },
+      ].map((item) => (
+        <article
+          key={item.title}
+          className="rounded-3xl border border-white/10 bg-white/[0.04] p-8"
+        >
+          <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-500/15 font-bold text-blue-400">
+            ✓
+          </div>
+
+          <h3 className="text-2xl font-bold">{item.title}</h3>
+
+          <p className="mt-4 leading-7 text-slate-400">
+            {item.description}
+          </p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
       <section className="bg-white px-6 py-24 text-slate-950 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
           <div>
