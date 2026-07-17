@@ -81,6 +81,33 @@ const industries = [
   "E-commerce",
 ];
 
+const faqs = [
+  {
+    question: "Can I start with just one team member?",
+    answer: "Yes. Most of our clients begin with one dedicated professional and grow their team as their business expands."
+  },
+  {
+    question: "Can I interview candidates before hiring?",
+    answer: "Absolutely. We present shortlisted candidates and you make the final hiring decision."
+  },
+  {
+    question: "What if the person isn't the right fit?",
+    answer: "If things aren't working out, we'll recruit a replacement to ensure your business continues to receive the support it needs."
+  },
+  {
+    question: "How long does recruitment take?",
+    answer: "Most placements are completed within one to three weeks depending on the role and requirements."
+  },
+  {
+    question: "Do you manage payroll?",
+    answer: "Yes. We handle payroll and administration so you can focus on running your business."
+  },
+  {
+    question: "Can my team grow later?",
+    answer: "Definitely. Apex Assist is designed to help businesses scale from one remote professional to an entire remote department."
+  }
+];
+
 function CheckIcon() {
   return (
     <svg
@@ -555,6 +582,35 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <section id="faq" className="border-y border-slate-200 bg-white px-6 py-24 lg:px-8">
+  <div className="mx-auto max-w-4xl">
+    <p className="text-sm font-bold uppercase tracking-[0.24em] text-blue-600">
+      Frequently Asked Questions
+    </p>
+
+    <h2 className="mt-4 text-4xl font-extrabold tracking-tight text-slate-900">
+      Common questions from new clients.
+    </h2>
+
+    <div className="mt-12 space-y-4">
+      {faqs.map((faq) => (
+        <details
+          key={faq.question}
+          className="rounded-2xl border border-slate-200 bg-slate-50 p-6"
+        >
+          <summary className="cursor-pointer text-lg font-semibold text-slate-900">
+            {faq.question}
+          </summary>
+
+          <p className="mt-4 leading-7 text-slate-600">
+            {faq.answer}
+          </p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
 
       <footer className="bg-slate-950 px-6 py-12 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 border-b border-white/10 pb-10 md:grid-cols-3">
