@@ -109,7 +109,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 py-24 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-32">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/20 bg-blue-400/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.22em] text-blue-300">
-              <span className="h-2 w-2 rounded-full bg-blue-400" /> Remote Staffing Partner
+              <span className="h-2 w-2 rounded-full bg-blue-400" /> Your Remote Staffing Partner
             </div>
             <h1 className="mt-7 max-w-4xl text-5xl font-extrabold leading-[1.02] tracking-[-0.04em] sm:text-6xl lg:text-7xl">
               Build your remote team.
@@ -263,7 +263,7 @@ export default function Home() {
 
       <footer className="bg-slate-950 px-6 py-14 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-12 border-b border-white/10 pb-12 md:grid-cols-[1.3fr_0.7fr_0.8fr]">
-          <div><p className="text-xl font-extrabold tracking-[0.18em]">APEX <span className="text-blue-400">ASSIST</span></p><p className="mt-5 max-w-md leading-7 text-slate-400">Dedicated remote professionals helping growing businesses create more capacity, reduce pressure and improve service.</p><p className="mt-5 text-sm font-bold uppercase tracking-[0.18em] text-slate-500">Your Remote Team. Built Better.</p></div>
+          <div><p className="text-xl font-extrabold tracking-[0.18em]">APEX <span className="text-blue-400">ASSIST</span></p><p className="mt-5 max-w-md leading-7 text-slate-400">Dedicated remote professionals helping growing businesses create more capacity, reduce pressure and improve service.</p><p className="mt-5 text-sm font-bold uppercase tracking-[0.18em] text-slate-500">Your Remote Staffing Partner.</p></div>
           <div><p className="font-bold">Quick Links</p><div className="mt-5 flex flex-col gap-3 text-slate-400"><a href="#services" className="hover:text-white">Services</a><a href="#why-us" className="hover:text-white">Why Apex Assist</a><a href="#how-it-works" className="hover:text-white">How It Works</a><a href="#industries" className="hover:text-white">Industries</a><a href="#faq" className="hover:text-white">FAQ</a></div></div>
           <div><p className="font-bold">Contact</p><a href="mailto:info@getapexassist.com" className="mt-5 block font-semibold text-blue-400 hover:text-blue-300">info@getapexassist.com</a><p className="mt-4 leading-7 text-slate-400">Gauteng, South Africa<br />Serving businesses across the United States</p></div>
         </div>
