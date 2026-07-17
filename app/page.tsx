@@ -83,7 +83,7 @@ export default function Home() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <a href="#top" className="text-lg font-extrabold tracking-[0.18em] sm:text-xl">
             <img
-  src="/apex-assist-logo.svg"
+  src="/apex-assist-header.svg"
   alt="Apex Assist - Your Remote Staffing Partner"
   className="h-12 w-auto"
 />

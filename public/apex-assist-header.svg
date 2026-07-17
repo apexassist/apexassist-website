@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 96" role="img" aria-labelledby="title">
+  <title id="title">Apex Assist</title>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4DA3FF"/>
+      <stop offset="1" stop-color="#0B6BFF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(4 4)">
+    <path d="M24 76 L58 10 L76 43 L65 62 L58 49 L43 79 Z" fill="#F5F7FA"/>
+    <path d="M58 10 L92 76 H74 L66 61 L76 43 Z" fill="url(#blue)"/>
+    <path d="M28 78 C50 58 75 45 108 38 C82 48 61 63 42 81 Z" fill="url(#blue)"/>
+  </g>
+  <text x="126" y="58" fill="#F5F7FA" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="5">APEX</text>
+  <text x="267" y="58" fill="#0B6BFF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="5">ASSIST</text>
+</svg>
