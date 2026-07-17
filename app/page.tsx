@@ -360,13 +360,18 @@ export default function Home() {
       </p>
 
       <h2 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
-        Personal service, reliable people and room to grow.
+        Built for businesses that value 
+        quality, communication and 
+        reliability.
       </h2>
 
       <p className="mt-6 text-lg leading-8 text-slate-400">
-        We are built for businesses that want to start with one dependable
-        professional, receive direct support and expand only when the time is
-        right.
+        Apex Assist is a boutique remote 
+        staffing partner focused on quality 
+        over quantity. Every client receives 
+        personal attention, carefully 
+        selected professionals and ongoing 
+        support as your business grows.
       </p>
     </div>
 
