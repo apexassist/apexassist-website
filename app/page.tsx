@@ -260,7 +260,7 @@ export default function Home() {
             {benefits.map((benefit) => (
               <article
                 key={benefit.title}
-                className="rounded-3xl border border-slate-200 bg-slate-50 p-8"
+                className="rounded-3xl border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:border-blue-400/40"
               >
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-100 text-xl font-bold text-blue-600">
                   ✓
